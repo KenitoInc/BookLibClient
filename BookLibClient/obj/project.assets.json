@@ -1,0 +1,324 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.OData.Client/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Core": "[7.6.3]"
+        },
+        "compile": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        }
+      },
+      "Microsoft.OData.Core/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Edm": "[7.6.3]",
+          "Microsoft.Spatial": "[7.6.3]"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.OData.Client/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Core": "[7.6.3]"
+        },
+        "compile": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        }
+      },
+      "Microsoft.OData.Core/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Edm": "[7.6.3]",
+          "Microsoft.Spatial": "[7.6.3]"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Microsoft.OData.Client/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Core": "[7.6.3]"
+        },
+        "compile": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        }
+      },
+      "Microsoft.OData.Core/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Edm": "[7.6.3]",
+          "Microsoft.Spatial": "[7.6.3]"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Microsoft.OData.Client/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Core": "[7.6.3]"
+        },
+        "compile": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.OData.Client.dll": {}
+        }
+      },
+      "Microsoft.OData.Core/7.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OData.Edm": "[7.6.3]",
+          "Microsoft.Spatial": "[7.6.3]"
+        },
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.OData.Client/7.6.3": {
+      "sha512": "kw1zx/SOfV6n1J+O13QHCwbydYJuKH434B07jADYyqqL4MRbEiU002PytmebBczn6mDNDOmB10n6nXxN28Pg8w==",
+      "type": "package",
+      "path": "microsoft.odata.client/7.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.OData.Client.dll",
+        "lib/net45/Microsoft.OData.Client.xml",
+        "lib/netstandard1.1/Microsoft.OData.Client.dll",
+        "lib/netstandard1.1/Microsoft.OData.Client.xml",
+        "microsoft.odata.client.7.6.3.nupkg.sha512",
+        "microsoft.odata.client.nuspec"
+      ]
+    },
+    "Microsoft.OData.Core/7.6.3": {
+      "sha512": "x5zaC+tKiPjk7fJgYsrOwyLaR11i9d/w60gZ2K89AFZRGshrlAQxIBJLnmyiSdwlnXf1VxEvV5iLFyI7Tyjumw==",
+      "type": "package",
+      "path": "microsoft.odata.core/7.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.OData.Core.dll",
+        "lib/netstandard1.1/Microsoft.OData.Core.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Core.xml",
+        "microsoft.odata.core.7.6.3.nupkg.sha512",
+        "microsoft.odata.core.nuspec"
+      ]
+    },
+    "Microsoft.OData.Edm/7.6.3": {
+      "sha512": "M5t2SllA5NBXVimXHxKBOVbER/l+N3xftGLMnwUF5AxFji6RzNExJ1Jxfm04wAFx7tziGVxg7PGMQeOfY0yWSQ==",
+      "type": "package",
+      "path": "microsoft.odata.edm/7.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.OData.Edm.dll",
+        "lib/netstandard1.1/Microsoft.OData.Edm.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.OData.Edm.xml",
+        "microsoft.odata.edm.7.6.3.nupkg.sha512",
+        "microsoft.odata.edm.nuspec"
+      ]
+    },
+    "Microsoft.Spatial/7.6.3": {
+      "sha512": "+VQeUk4UakcDnH4YvfrNc866FTCIhTttuNlafqrdgaw1Yo9qdvZRcJJizGD0jmoiq0y2peh79P71xln8EDD9Ng==",
+      "type": "package",
+      "path": "microsoft.spatial/7.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Microsoft.Spatial.dll",
+        "lib/netstandard1.1/Microsoft.Spatial.xml",
+        "lib/portable-net45+win8+wpa81/Microsoft.Spatial.dll",
+        "lib/portable-net45+win8+wpa81/Microsoft.Spatial.xml",
+        "microsoft.spatial.7.6.3.nupkg.sha512",
+        "microsoft.spatial.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Microsoft.OData.Client >= 7.6.3",
+      "Microsoft.OData.Core >= 7.6.3",
+      "Microsoft.OData.Edm >= 7.6.3",
+      "Microsoft.Spatial >= 7.6.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kemunga\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kemunga\\source\\repos\\BookLibClient\\BookLibClient\\BookLibClient.csproj",
+      "projectName": "BookLibClient",
+      "projectPath": "C:\\Users\\kemunga\\source\\repos\\BookLibClient\\BookLibClient\\BookLibClient.csproj",
+      "packagesPath": "C:\\Users\\kemunga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kemunga\\source\\repos\\BookLibClient\\BookLibClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kemunga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Microsoft.OData.Client": {
+            "target": "Package",
+            "version": "[7.6.3, )"
+          },
+          "Microsoft.OData.Core": {
+            "target": "Package",
+            "version": "[7.6.3, )"
+          },
+          "Microsoft.OData.Edm": {
+            "target": "Package",
+            "version": "[7.6.3, )"
+          },
+          "Microsoft.Spatial": {
+            "target": "Package",
+            "version": "[7.6.3, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
